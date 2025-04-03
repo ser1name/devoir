@@ -1,0 +1,24 @@
+/* Empêche l'utilisation de styles en ligne */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de la navbar */
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section du menu */
+.menu-section {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajoute une grande section pour forcer le scroll */
+.large-section {
+    height: 800px; /* Augmente la hauteur pour obliger le défilement */
+}
